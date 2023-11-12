@@ -1,0 +1,15 @@
+
+h1 {
+  color: black;
+  font-family: Arial;
+}
+li {
+  display: inline-block;
+  border: solid 1px lightgrey;
+  padding: 5px;
+  margin: 5px;
+  background-color: #c1c1c1;
+}
+body {
+  background-color: #d8d8d8;
+}
