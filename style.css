@@ -8,7 +8,7 @@ li {
     border: solid 1px lightgrey;
     padding: 5px;
     margin: 5px;
-    background-color: #c1c1c1;
+    
 }
 
 body {
@@ -19,4 +19,7 @@ body {
     width: 800px;
     margin: auto;
     text-align: justify;
+}
+#menu {
+ background-color: #c1c1c1;   
 }
