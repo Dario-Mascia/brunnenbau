@@ -15,11 +15,12 @@ body {
     background-color: #d8d8d8;
 }
 
-#main {
+#main, #menu {
     width: 800px;
     margin: auto;
     text-align: justify;
 }
-#menu {
- background-color: #c1c1c1;   
+
+#menubar {
+ background-color: #c1c1c1; 
 }
