@@ -8,21 +8,29 @@ li {
     border: solid 1px lightgrey;
     padding: 5px;
     margin: 5px;
-    
+
 }
-ul{
+
+ul {
     padding: 0
 }
+
 body {
     background-color: #d8d8d8;
 }
 
-#main, #menu {
+#main,
+#menu {
     width: 800px;
     margin: auto;
     text-align: justify;
 }
 
 #menubar {
- background-color: #c1c1c1; 
+    background-color: #c1c1c1;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
 }
