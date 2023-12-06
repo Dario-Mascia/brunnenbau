@@ -53,3 +53,7 @@ textarea {
     width: 385px;
     height: 105px;
 }
+
+input[type=submit] {
+    width: calc(385px / 2 + 10px);
+}
