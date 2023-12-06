@@ -1,7 +1,8 @@
-<html>
+<html lang="en">
 
 <head>
   <link rel="stylesheet" href="style.css">
+  <title>Email Form</title>
 </head>
 
 <body>
@@ -16,61 +17,42 @@
     </div>
   </div>
   <div id="main">
-
-
     <h1>Referenzen</h1>
+    <form action="send_email.php" method="post">
+
+      <input type="text" id="name" name="name" required>
+      <input type="email" id="email" name="email" required>
+      <textarea id="message" name="message" required></textarea>
+
+      <input type="submit" value="Send">
+    </form>
+    <h2>
+      Unsere Referenzen
+    </h2>
+
+
+    <p>
+      Finn.weber@oswaedi.ch
+    </p>
+
+
+    <p>
+      Iven.bruderer@oswaedi.ch
+    </p>
+
+    <p>
+      Dario.mascia@oswaedi.ch
+    </p>
+
+    <p>
+      Harry.lehnherr@oswaedenswil.ch
+    </p>
+
+
   </div>
-</body>
 
-</html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Email Form</title>
-</head>
-
-<body>
-
-  <form action="send_email.php" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" required></textarea>
-
-    <input type="submit" value="Send">
-  </form>
 
 </body>
 
-</html>
-<html>
-<h2>
- Unsere Referenzen
-</h2>
-</html>
-<html>
-  <p>
-    Finn.weber@oswaedi.ch
-  </p>
-</html>
-<html>
-  <p>
-     Iven.bruderer@oswaedi.ch
-  </p>
-</html>
-<html>
-  <p>
-    Dario.mascia@oswaedi.ch
-  </p>
-</html>
-<html>
-  <p>
-    Harry.lehnherr@oswaedenswil.ch
-  </p>
+
 </html>
