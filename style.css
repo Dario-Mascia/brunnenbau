@@ -35,9 +35,21 @@ a {
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
 }
-a:hover,.active {
-color: white
+
+a:hover,
+.active {
+    color: white
 }
-input{
-display:block
+
+input {
+    display: block;
+    width: 385px;
+    height: 35px;
+    margin-bottom: 16px;
+}
+
+textarea {
+    resize: none;
+    width: 385px;
+    height: 105px;
 }
